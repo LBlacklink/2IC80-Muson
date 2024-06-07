@@ -1,0 +1,12 @@
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\bin\Debug\MusonSnapshotStream.exe.config
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\bin\Debug\MusonSnapshotStream.exe
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\bin\Debug\MusonSnapshotStream.pdb
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.csproj.AssemblyReference.cache
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.Properties.Resources.resources
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.csproj.GenerateResource.cache
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.csproj.CoreCompileInputs.cache
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.exe
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.pdb
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.Setup.resources
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.Stream.resources
+C:\Users\lboij\source\repos\MusonSnapshotStream\MusonSnapshotStream\obj\Debug\MusonSnapshotStream.DOS.resources
