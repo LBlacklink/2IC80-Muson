@@ -170,7 +170,12 @@ namespace MusonSnapshotStream {
 		}
 
 		private void DOSButton_Click(object sender, EventArgs e) {
+			string url = "http://" + ipBox.Text + "/api/v1/lan-probe/";
 
+			DOS dos = new DOS(url);
+			dos.FormClosing += delegate { this.Show(); };
+			dos.Show();
+			this.Hide();
 		}
 	}
 }

@@ -114,7 +114,7 @@
 			this.DOSButton.Name = "DOSButton";
 			this.DOSButton.Size = new System.Drawing.Size(113, 22);
 			this.DOSButton.TabIndex = 7;
-			this.DOSButton.Text = "Disable Camera TBA";
+			this.DOSButton.Text = "Disable Camera";
 			this.DOSButton.UseVisualStyleBackColor = true;
 			this.DOSButton.Click += new System.EventHandler(this.DOSButton_Click);
 			// 
