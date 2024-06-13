@@ -1,0 +1,14 @@
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\bin\Release\net8.0\SecurityWorkspace.exe
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\bin\Release\net8.0\SecurityWorkspace.deps.json
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\bin\Release\net8.0\SecurityWorkspace.runtimeconfig.json
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\bin\Release\net8.0\SecurityWorkspace.dll
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\bin\Release\net8.0\SecurityWorkspace.pdb
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.AssemblyInfoInputs.cache
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.AssemblyInfo.cs
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.csproj.CoreCompileInputs.cache
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.dll
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\refint\SecurityWorkspace.dll
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.pdb
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\SecurityWorkspace.genruntimeconfig.cache
+C:\Users\lboij\source\repos\SecurityWorkspace\SecurityWorkspace\obj\Release\net8.0\ref\SecurityWorkspace.dll

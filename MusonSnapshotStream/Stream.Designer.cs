@@ -48,7 +48,7 @@
 			this.Name = "Stream";
 			this.ShowIcon = false;
 			this.Text = "Stream";
-			this.Resize += new System.EventHandler(this.Form1_Resize);
+			this.Resize += new System.EventHandler(this.Stream_Resize);
 			this.ResumeLayout(false);
 
 		}

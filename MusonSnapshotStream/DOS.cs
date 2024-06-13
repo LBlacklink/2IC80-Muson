@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -15,29 +16,18 @@ using static System.Net.WebRequestMethods;
 namespace MusonSnapshotStream {
 	public partial class DOS : Form {
 
-		string url;
-
-		HttpClient httpClient;
-
-		ulong count = 0;
-
-		const int reqPerUpdate = 10000;
-
-		DateTime lastUpdate = DateTime.Now;
-
-		Process process;
+		Process process = null;
 
 		public DOS(string url) {
-			this.url = url;
-			httpClient = new HttpClient();
-
-			httpClient.DefaultRequestHeaders.Add("Connection", "keep-alive");
-
 			InitializeComponent();
 
+			//Due to strange threading limiting issues this program is exported to an .exe and run as a process
+			//This allows for many many more requests to be sent per second
+			//The source code for this program is listed seperately.
+			string test = Directory.GetCurrentDirectory() + "\\SecurityWorkspace.exe";
 			process = new Process {
 				StartInfo = new ProcessStartInfo {
-					FileName = "C:\\Users\\lboij\\source\\repos\\MusonSnapshotStream\\MusonSnapshotStream\\SecurityWorkspace.exe",
+					FileName = Directory.GetCurrentDirectory() + "\\SecurityWorkspace.exe",
 					Arguments = url,
 					UseShellExecute = false,
 					RedirectStandardOutput = true,
@@ -48,8 +38,11 @@ namespace MusonSnapshotStream {
 			process.Start();
 		}
 
-		private void UITimer_Tick(object sender, EventArgs e) {
-			
+		private void DOS_FormClosing(object sender, FormClosingEventArgs e) {
+			//Ensure the process is closed when the form is closed
+			if(process != null) {
+				process.Close();
+			}
 		}
 	}
 }

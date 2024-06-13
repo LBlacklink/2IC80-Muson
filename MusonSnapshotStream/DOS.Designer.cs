@@ -23,11 +23,8 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
-			this.components = new System.ComponentModel.Container();
 			this.progressBar = new System.Windows.Forms.ProgressBar();
 			this.label1 = new System.Windows.Forms.Label();
-			this.disableTimer = new System.Windows.Forms.Timer(this.components);
-			this.UITimer = new System.Windows.Forms.Timer(this.components);
 			this.logLabel = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -50,16 +47,6 @@
 			this.label1.TabIndex = 1;
 			this.label1.Text = "Currently disabling camera...";
 			// 
-			// disableTimer
-			// 
-			this.disableTimer.Enabled = true;
-			this.disableTimer.Interval = 1;
-			// 
-			// UITimer
-			// 
-			this.UITimer.Enabled = true;
-			this.UITimer.Tick += new System.EventHandler(this.UITimer_Tick);
-			// 
 			// logLabel
 			// 
 			this.logLabel.AutoSize = true;
@@ -80,6 +67,7 @@
 			this.Name = "DOS";
 			this.ShowIcon = false;
 			this.Text = "Disable Camera";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DOS_FormClosing);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -89,8 +77,6 @@
 
 		private System.Windows.Forms.ProgressBar progressBar;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Timer disableTimer;
-		private System.Windows.Forms.Timer UITimer;
 		private System.Windows.Forms.Label logLabel;
 	}
 }

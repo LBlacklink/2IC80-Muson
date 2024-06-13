@@ -6,9 +6,13 @@ using System.Windows.Forms;
 
 namespace MusonSnapshotStream {
 	internal static class Program {
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
+		
+		/*
+		 * MusonSnapshotStream was developed by group 21
+		 * for the course "Lab on Offensive Computer Security" @ TU/e
+		 * Please use responsibily.
+		 */
+
 		[STAThread]
 		static void Main() {
 			Application.EnableVisualStyles();
