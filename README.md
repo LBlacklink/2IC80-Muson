@@ -1,1 +1,2 @@
-<video src="https://youtu.be/ao0uxQP5Gl4" width="300" />
+Click here to watch the demonstration video:
+https://youtu.be/ao0uxQP5Gl4
